@@ -19,7 +19,7 @@ class PostManTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("User"))
+                .body("data", equalTo("User id"))
         ;
     }
 
@@ -37,7 +37,7 @@ class PostManTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Пользоват"))
+                .body("data", equalTo("Пользователь"))
         ;
     }
 }
